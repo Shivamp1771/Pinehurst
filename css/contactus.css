@@ -1,0 +1,409 @@
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+
+}
+
+body {
+  color: #080a3c;
+  background-color: #fff;
+  font-size: 18px;
+  font-family: 'poppins';
+  margin: 0;
+}
+
+
+header.home-cover {
+  position: relative;
+  background-color: #343a40;
+  background: url(../assets/contact.jpg) no-repeat center center; /* source: https://www.safetyservicescompany.com/wp-content/uploads/2020/01/contact-us.jpg*/
+  background-size: cover;
+  padding-top: 8em;
+  padding-bottom: 5em;
+  height: 85vh;
+}
+
+.header-text {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 13.5625em;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 0.625em;
+}
+
+h1,h2,h3,h4{
+  font-size: 45px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+div {
+  display: block;
+}
+section {
+  text-align: center;
+}
+p {
+  color: #2c7bb3;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  font-size: 20px;
+}
+/* common endsssss */
+
+/* ------row------ */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin : 30px 15px;
+  padding: 20px 30px;
+}
+/* ------row------ */
+
+/* ------contactus banner------ */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top:33%;
+
+}
+
+
+.image {
+  max-width: 100%;
+  background-size: cover;
+}
+.image img{
+   height: 85vh;
+  max-width: 100%;
+}
+
+/* ------contactus banner------ */
+
+/* ------contact form------ */
+.style1 {
+  width: 60%;
+}
+.contact-page-form form {
+    padding: 20px 15px 0;
+}
+.contact-page-form {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
+.div-form {
+  width: 50%;
+  padding: 5px;
+}
+.div-form-msg {
+  width: 100%;
+}
+.contact-page-form h2 {
+  color: #071c34;
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 700;
+}
+.contact-page-form .contact-form input {
+  margin-bottom: 5px;
+}
+.contact-page-form .contact-form textarea {
+  height: 110px;
+}
+.contact-page-form .contact-form input[type="submit"] {
+  background: #071c34;
+  width: 150px;
+  border-color: #071c34;
+}
+.contact-page-form input {
+  /* background: #f9f9f9 none repeat scroll 0 0; */
+  background: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  width: 100%;
+  border-radius: 4px;
+}
+.contact-page-form .message-input {
+ display: inline-block;
+ width: 100%;
+ padding-left: 0;
+}
+.single-input-field textarea {
+  /* background: #f9f9f9 none repeat scroll 0 0; */
+  background: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+.single-input-fieldsbtn input[type="submit"] {
+  /* background: #fda40b none repeat scroll 0 0; */
+  background: #f6b60b;
+  color: #fff;
+  display: inline-block;
+  font-weight: 600;
+  padding: 10px 0;
+  /* text-transform: capitalize; */
+  width: 150px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.single-input-fieldsbtn input[type="submit"]:hover {
+  background:#071c34;
+  /* transition: all 0.4s ease-in-out 0s; */
+  border-color:#071c34
+}
+.single-input-field  h4 {
+  color: #464646;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+/* ------contact form------ */
+
+/* ------Contact image------ */
+.style2{
+  width:40%;
+}
+.contact-page-map {
+  margin-top: 36px;
+}
+/* ------Contact image------ */
+
+/* ------contact information------ */
+.contact-information{
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin: auto;
+  padding: 30px;
+}
+.cardi{
+  background: #2f3542;
+  padding: 0 20px;
+  margin: 0 10px;
+  /* width: calc(33% - 20px); */
+  width: 33%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /* cursor: pointer; */
+}
+.cardi p{
+  margin-top: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  max-height: 0;
+}
+
+.icon img{
+  width:50px;
+  height:auto;
+}
+/* ------contact information------ */
+
+/* --------------team--------------- */
+.team{
+  margin:0%;
+  padding: 50px 10px;
+}
+.text-center {
+  text-align: center!important;
+}
+.teamcolumn {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.teamcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.teamcard .img{
+  width:30%;
+  margin-top:30px;
+}
+.cardinner {
+  padding: 16px 16px;
+}
+.cardinner > h2{
+  font-family: 'poppins' ;
+}
+.cardinner  > p{
+  font-family: 'poppins' ;
+  font-size: 20px;
+}
+.cardinnerpara{
+  color: grey;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+ /* --------------team--------------- */
+
+/****************** Footer *************************/
+
+footer {
+  padding: 40px 0;
+  background-color: #343a40;
+}
+
+footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #f6b60b;
+}
+
+footer .social a {
+  text-decoration: none;
+  font-size:  24px;
+  color: inherit;
+  border: 1px solid #f6b60b;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+footer .social a:hover {
+  opacity: 0.9;
+}
+
+footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li a:hover {
+  opacity: 0.9;
+}
+
+footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #f6b60b;
+  font-weight: bold;
+}
+
+footer .copyright a{
+  text-decoration: none;
+  color: #f6b60b;
+}
+
+@media only all and (max-width: 650px) {
+  footer ul {
+      display: grid;
+      grid-auto-flow: row;
+  }
+}
+
+/* ------media query------ */
+@media screen and (max-width:900px){
+  .contact-information{
+    flex-direction: column;
+  }
+  .cardi{
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+  }
+  body{
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .style1, .style2{
+    width: 100%;
+  }
+
+  .teamcolumn {
+    width: 100%;
+    display: block;
+  }
+
+  .div-form{
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 3%;
+}
+.row .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 15px;
+  padding: 20px 0px;
+}
+.col
+{
+  width:100%;
+}
+}
